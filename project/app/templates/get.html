@@ -6,8 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    {{name}}
+    <!-- {{name}}
     {{age}}
-    {{city}}
+    {{city}} -->
+
+    <!-- ==============================session========================= -->
+    <!-- {{name}} -->
+
+<h1>get session from server</h1>
+
+   {% for i in name %} 
+   {{i}} <hr>
+   <h1>my id: {{i.id}}</h1>
+   <h1>my name: {{i.name}} </h1>
+   <h1>my city: {{i.city}}</h1>
+   
+   {% endfor %}
 </body>
 </html>
